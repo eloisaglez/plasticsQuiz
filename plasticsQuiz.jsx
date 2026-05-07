@@ -61,7 +61,7 @@ function shuffle(arr) {
   return a;
 }
 
-export default function plasticsQuiz() {
+export default function PlasticsQuiz() {
   const [screen, setScreen] = useState("menu");
   const [sessionFilter, setSessionFilter] = useState(0);
   const [questions, setQuestions] = useState([]);
