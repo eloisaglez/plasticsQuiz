@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useCallback, useRef } from "react";
+import { Check, X, Trophy, Lightbulb, Timer, ArrowRight, RotateCcw } from 'lucide-react';
 import { useState, useEffect, useCallback, useRef } from "react";
 
 const QUESTIONS = [
